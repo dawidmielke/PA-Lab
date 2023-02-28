@@ -19,6 +19,7 @@ namespace UnitTest
             Assert.Equal(1, quiz.QuizId);
         }
 
+        [Fact]
         public void IsQuizNull()
         {
             var quiz2 = service.FindById(2);

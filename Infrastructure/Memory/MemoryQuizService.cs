@@ -50,8 +50,6 @@ namespace Infrastructure.Memory
             {
                 return null;
             }
-            
-            
         }
 
         public void SaveUserAnswer(UserAnswer answer)
